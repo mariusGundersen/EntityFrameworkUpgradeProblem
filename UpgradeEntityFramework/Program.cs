@@ -12,7 +12,9 @@ namespace UpgradeEntityFramework
 
             using (var context = new DatabaseContext())
             {
-                var user = await context.MemberUsers.FirstOrDefaultAsync();
+                var user = await context.MemberUsers
+                    .Include(u => u.EventSignups)
+                    .FirstOrDefaultAsync();
 
                 Console.WriteLine(user.EventSignups.Count);
             }

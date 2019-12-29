@@ -7,5 +7,9 @@
         public string UserId { get; set; }
 
         public MemberUser User { get; set; }
+
+        public string PartnerEmail { get; set; }
+
+        public MemberUser Partner { get; set; }
     }
 }

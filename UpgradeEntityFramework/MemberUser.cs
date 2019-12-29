@@ -6,6 +6,8 @@ namespace UpgradeEntityFramework
     {
         public string Id { get; set; }
 
+        public string NormalizedEmail { get; set; }
+
         public ICollection<EventSignup> EventSignups { get; set; } = new List<EventSignup>();
     }
 }
