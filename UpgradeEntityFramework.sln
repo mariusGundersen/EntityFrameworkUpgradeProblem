@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpgradeEntityFramework", "UpgradeEntityFramework\UpgradeEntityFramework.csproj", "{1C137FA7-71A1-42DD-9E8C-4E79F6F55213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C137FA7-71A1-42DD-9E8C-4E79F6F55213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C137FA7-71A1-42DD-9E8C-4E79F6F55213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C137FA7-71A1-42DD-9E8C-4E79F6F55213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C137FA7-71A1-42DD-9E8C-4E79F6F55213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6F4673F-73E4-4027-AB10-92835EB13E66}
+	EndGlobalSection
+EndGlobal
